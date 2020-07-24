@@ -1,0 +1,13 @@
+{
+  "name": "update-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Julia Tzu-Ya Weng",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
