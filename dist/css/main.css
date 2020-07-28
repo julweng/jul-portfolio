@@ -58,14 +58,14 @@
     background: url("../img/portrait.jpg");
     background-size: 250px 290px;
     border-radius: 50%;
-    border: solid 4px #fca9bbf3; }
+    border: solid 4px rgba(117, 233, 248, 0.953); }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #fca9bbf3; }
+      color: rgba(117, 233, 248, 0.953); }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -77,7 +77,7 @@
     color: #fff;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #fca9bbf3; }
+      color: rgba(117, 233, 248, 0.953); }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -138,7 +138,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #fca9bbf3; }
+  color: rgba(117, 233, 248, 0.953); }
 
 main {
   padding: 4rem;
@@ -148,7 +148,7 @@ main {
     main .icons a {
       padding: 0.5rem; }
       main .icons a:hover {
-        color: #fca9bbf3;
+        color: rgba(117, 233, 248, 0.953);
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -166,7 +166,7 @@ main {
     height: 260px;
     margin: auto;
     border-radius: 50%;
-    border: #fca9bbf3 4px solid; }
+    border: rgba(117, 233, 248, 0.953) 4px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.25rem;
@@ -174,7 +174,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #fca9bbf3 5px solid; }
+    border-bottom: rgba(117, 233, 248, 0.953) 5px solid; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -193,7 +193,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #fca9bbf3;
+      border-color: rgba(117, 233, 248, 0.953);
       transition: all 0.5s ease-out; }
 
 .btn, .btn-dark, .btn-light {
@@ -202,7 +202,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #fca9bbf3;
+    background: rgba(117, 233, 248, 0.953);
     color: #000; }
 
 .btn-dark {
@@ -225,7 +225,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #fca9bbf3;
+      background: rgba(117, 233, 248, 0.953);
       color: #000; }
       .boxes div:hover span {
         color: #000; }
