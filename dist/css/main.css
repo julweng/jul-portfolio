@@ -263,10 +263,14 @@ main {
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
+  .about-info .bio-image {
+    width: 240px; }
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+  .about-info .bio-image {
+    width: 240px; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
@@ -299,6 +303,8 @@ main {
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
+    .about-info .bio-image {
+      width: 240px; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
