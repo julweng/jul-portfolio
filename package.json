@@ -1,8 +1,8 @@
 {
-  "name": "update-portfolio",
+  "name": "jul-portfolio",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://julweng.github.io/portfolio",
+  "homepage": "https://julweng.github.io/jul-portfolio",
   "author": "Julia Tzu-Ya Weng",
   "license": "MIT",
   "scripts": {
